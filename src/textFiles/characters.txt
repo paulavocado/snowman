@@ -1,0 +1,20 @@
+mario|
+luigi|
+zelda|
+tom nook|
+mickey mouse|
+han solo|
+yoda|
+hulk|
+super man|
+darth vader|
+peter pan|
+king kong|
+barbie|
+godzilla|
+popeye|
+mary poppins|
+pikachu|
+captain america|
+sonic the hedgehog|
+scooby doo|

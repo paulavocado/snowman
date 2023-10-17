@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.shape.QuadCurve?>
+<?import javafx.scene.shape.Sphere?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="363.0" prefWidth="526.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FinalController">
+   <children>
+      <ImageView fitHeight="557.0" fitWidth="569.0" layoutY="-10.0" opacity="0.4" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/six.jpg" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="tareaInfo" editable="false" layoutX="61.0" layoutY="151.0" prefHeight="163.0" prefWidth="375.0" />
+      <Circle fill="DODGERBLUE" layoutX="405.0" layoutY="76.0" radius="27.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="405.0" layoutY="137.0" radius="40.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polyline fill="CHARTREUSE" layoutX="463.0" layoutY="115.0" points="-50.0, -40.0, -50.0, -27.599990844726562, -11.20001220703125, -33.80000305175781, -50.0, -39.999996185302734" strokeType="INSIDE" />
+      <Sphere layoutX="418.0" layoutY="67.0" radius="4.0" />
+      <Sphere layoutX="401.0" layoutY="68.0" radius="4.0" />
+      <Line endX="23.5999755859375" endY="-12.800003051757812" layoutX="439.0" layoutY="102.0" startX="1.20001220703125" startY="27.199996948242188" />
+      <Line endX="-7.20001220703125" endY="23.800003051757812" layoutX="380.0" layoutY="97.0" startX="-39.4000244140625" startY="-7.8000030517578125" />
+      <Circle fill="#151515" layoutX="405.0" layoutY="156.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#151515" layoutX="405.0" layoutY="140.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#151515" layoutX="405.0" layoutY="122.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+      <QuadCurve controlX="18.0" controlY="14.800003051757812" endX="18.0" endY="-7.4000091552734375" fill="#dfbadc" layoutX="405.0" layoutY="104.0" startX="-18.0" startY="-7.4000091552734375" stroke="BLACK" strokeType="INSIDE" />
+      <QuadCurve controlX="-59.0" controlY="104.20001220703125" endX="-34.20001220703125" endY="-1.52587890625E-5" fill="#dfbadc" layoutX="444.0" layoutY="98.0" startX="-50.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="64.0" layoutY="64.0" text="Thank you !" textFill="#19679e">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="103.0" text="For Playing the Game" textFill="#c573d7">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblName" layoutX="205.0" layoutY="103.0" text="[name]" textFill="#c573d7">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+   </children>
+   <effect>
+      <ColorAdjust />
+   </effect>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="229.0" prefWidth="334.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuessController">
+   <children>
+      <ImageView fitHeight="256.0" fitWidth="372.0" layoutX="-5.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/eight.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnBack" layoutX="114.0" layoutY="142.0" mnemonicParsing="false" onAction="#goBackBtn" style="-fx-background-color: white;" text="Go Back" textFill="#002eff">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <Button fx:id="btSubmit" layoutX="191.0" layoutY="142.0" mnemonicParsing="false" onAction="#SubmitBtn" style="-fx-background-color: white;" text="Submit" textFill="#002eff">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <TextField fx:id="txtGuess" layoutX="106.0" layoutY="102.0" onAction="#TextField" />
+      <Label layoutX="130.0" layoutY="70.0" text="Enter the Word" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="14.0" text="*Incorrect guess = -2 points" />
+      <Label layoutX="14.0" layoutY="32.0" text="*Correct guess = +2 points" />
+   </children>
+</AnchorPane>
